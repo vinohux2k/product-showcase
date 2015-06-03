@@ -1,7 +1,8 @@
-.header {
-  float: left;
-  margin-left: 230px;
+.logo {
     height: 80px;
+}
+.header {
+text-align: center;
 }
 .container-fluid {
   background-color: #ffebd9;
@@ -9,9 +10,7 @@
 }
  .top-menu {
   font-size: 17px;
-  float: right;
   margin-top: 50px;
-  margin-right: 250px;
  }
  .top-menu .col-sm-1 {
   font-weight: bold;
@@ -52,7 +51,7 @@
   
 }
  .form-control {
-  width: 20%;
+  width: 420px;
  }
  .list-group-item {
   border: none;
@@ -139,6 +138,56 @@ padding-right: 10px;
   border: 0; 
   border-top: 1px solid #8c604c; 
   width: 40%;
+ }
+ 
+ @media only screen and (max-width:767px) {
+ .mobile-hide {
+ display: none;
+ }
+ .tagline-img {
+ 	  width: 250px;
+	  height: 60px;
+  	margin-left: 13%;
+  }
+  .top-menu {
+  margin-top: 20px;
+  }
+  .top-menu div {
+  	display: inline;
+  }
+  .top-menu .col-sm-1 {
+  	padding: 0;
+  }
+  label[for="usr"] {
+  display: block;
+  }
+  .form-group {
+  margin-top: 0;
+  }
+  .form-control {
+  width: 60%;
+  }
+  .info-sec, .help-sec {
+  float: none;
+  }
+  .list-group-item {
+  display: inline;
+  padding-right: 10px;
+  }
+  .socialmedia-icons, .footer-logo {
+  	margin-left: 0;
+  }
+  .connect {
+  display: block;
+  }
+  .footer {
+  width: 100% !important;
+  }
+  	
+  .help-sec, .info-sec, .footer-logo {
+  text-align: center; 
+  }
+ 	
  }
 
  
